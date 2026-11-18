@@ -65,3 +65,33 @@
         font-size: 25px !important;
     }
 }
+/* FACEBOOK PERSONAL LINK */
+.facebook-link {
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    margin-top: 15px;
+    color: #1877f2;
+    font-size: 13px;
+    font-weight: 700;
+    text-decoration: none;
+    transition: 0.3s ease;
+}
+
+.facebook-icon {
+    display: inline-flex;
+    width: 25px;
+    height: 25px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    background: #1877f2;
+    color: #fff;
+    font-size: 19px;
+    font-weight: 800;
+}
+
+.facebook-link:hover {
+    opacity: 0.7;
+    transform: translateY(-2px);
+}
