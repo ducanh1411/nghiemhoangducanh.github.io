@@ -26,4 +26,27 @@
 
 .body-copy p {
     line-height: 1.8;
+}/* Tăng kích thước chữ SLOGAN */
+.quote-section p {
+    font-size: 18px;
+    font-weight: 700;
+    letter-spacing: 4px;
+    margin-top: 20px;
+}/* Điều chỉnh nội dung các thẻ lĩnh vực */
+.focus-card p,
+.focus-card li {
+    font-size: 13px;
+    line-height: 1.75;
+}
+
+.focus-card ul {
+    padding-left: 18px;
+}
+
+.focus-card li {
+    margin-bottom: 7px;
+}
+
+.focus-card h3 {
+    font-size: 20px;
 }}
