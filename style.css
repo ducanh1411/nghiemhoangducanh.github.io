@@ -46,4 +46,38 @@
     letter-spacing: 5px !important;
     line-height: 1.5 !important;
     margin-top: 20px !important;
+}/* ===== KHÔI PHỤC GIAO DIỆN ĐÃ CHỐT ===== */
+
+/* 1. Ảnh chân dung hình tròn */
+.hero-content img,
+.hero-copy img {
+    display: block !important;
+    width: 180px !important;
+    height: 180px !important;
+    object-fit: cover !important;
+    object-position: center !important;
+    border-radius: 50% !important;
+    border: 4px solid #ffffff !important;
+    box-shadow: 0 5px 20px rgba(0,0,0,0.15) !important;
+    margin-bottom: 24px !important;
+}
+
+/* 2. Thu nhỏ chữ nội dung các thẻ */
+.focus-card p,
+.focus-card li {
+    font-size: 10px !important;
+    line-height: 1.6 !important;
+}
+
+.focus-card h3 {
+    font-size: 15px !important;
+}
+
+/* 3. Phóng to slogan */
+.quote-section p {
+    font-size: 26px !important;
+    font-weight: 800 !important;
+    letter-spacing: 5px !important;
+    line-height: 1.5 !important;
+    margin-top: 20px !important;
 }
