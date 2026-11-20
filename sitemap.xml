@@ -13,4 +13,9 @@
     </image:image>
 
   </url>
+        <url>
+    <loc>https://ducanh1411.github.io/nghiemhoangducanh.github.io/profile.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+</url>
 </urlset>
